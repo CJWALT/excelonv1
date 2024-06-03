@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
                     <h2 className='font-[mada] text-[1.6rem] md:text-[2rem] lg:text-[3rem] font-bold text-[#091751]'>
                         Discover, Dream, Drive!
                         </h2>
-                    <button className='bg-[#091751] rounded-[5px] w-[84px] h-[26px] lg:h-[30px] text-[1rem] lg:w-[90px] hover:border-2 hover:bg-transparent hover:text-[#091751] hover:border-[#091751] flex items-center mt-[1rem] justify-center text-[13px] font-[inter] font-medium text-white '>Explore</button>
+                    <Link to='/our-services' className='bg-[#091751] rounded-[5px] w-[84px] h-[26px] lg:h-[30px] text-[1rem] lg:w-[90px] hover:border-2 hover:bg-transparent hover:text-[#091751] hover:border-[#091751] flex items-center mt-[1rem] justify-center text-[13px] font-[inter] font-medium text-white '>Explore</Link>
 
                 </div>
                 <div className='absolute right-[-1rem] bottom-0  md:bottom-auto md:right-0 md:top-[12rem] md:flex md:justify-end md:h-[28rem] lg:h-[37rem] lg:w-[50%] md:w-[50%]'>

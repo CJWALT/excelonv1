@@ -2,6 +2,19 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function OurServices() {
+
+
+  const services = [
+
+    { 
+      title: 'real estate sales',
+      para: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur deserunt delectus iure magnam ipsum esse laboriosam sint beatae quia ipsa earum reiciendis, maxime officia sequi!',
+      link:'learn more'
+    }
+  ]
+
+
+
   return (
     <div className="w-[90%] mx-auto py-[4rem] max-w-[1440px]">
         

@@ -1,10 +1,14 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import OurServices from './pages/OurServices';
-import AboutUs from './pages/AboutUs';
+
+
 import Homepage from './pages/Homepage'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ChooseUs from './components/ChooseUs';
+
+import OurServices from './components/OurServices';
+
 
 const Layout = () => {
   return (
@@ -27,7 +31,7 @@ const router = createBrowserRouter([
       },
       {
         path: "about-us",
-        element: <AboutUs />
+        element: <ChooseUs />
       },
       {
         path: "our-services",

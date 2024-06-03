@@ -18,6 +18,18 @@ function Navbar() {
 
     }
 
+
+    const textWhatsapp=()=>{ 
+        const number = '+23481444356687'
+
+        const message = 'Hello, I would like to inquire about your services '
+
+
+        const url =  `https://wa.me/${number}?text=${encodeURIComponent(message)}`
+
+        window.open(url, '_blank')
+    }
+
   return (
     <div className='w-[90%] max-w-[1440px] mx-auto'>
         <div className='flex py-[2rem] justify-between items-center relative '>
@@ -40,7 +52,7 @@ function Navbar() {
                     </ol>
                 </ul>
                  <div>
-            <button className='border-2 border-[#4A5CA2] p-2 rounded-md text-[#4c67cf] font-medium text-[13px] font-[inter] hover:bg-blue-400 hover:border-0 hover:text-white '>
+            <button onClick={textWhatsapp} className='border-2 border-[#4A5CA2] p-2 rounded-md text-[#4c67cf] font-medium text-[13px] font-[inter] hover:bg-blue-400 hover:border-0 hover:text-white '>
                     Contact Us
                 </button>
             </div>

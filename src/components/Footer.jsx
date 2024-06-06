@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { BsInstagram } from "react-icons/bs";
+import { ImFacebook2 } from 'react-icons/im';
+import { RiTwitterXFill } from "react-icons/ri";
 
 function Footer() {
   return (
@@ -11,9 +14,9 @@ function Footer() {
         Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
         </p>
         <div className='flex gap-4'>
-            <span>icon</span>
-            <span>icon</span>
-            <span>icon</span>
+            <span><BsInstagram /></span>
+            <span><ImFacebook2 /></span>
+            <span><RiTwitterXFill /></span>
             <span>icon</span>
         </div>
       </div>

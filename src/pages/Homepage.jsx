@@ -3,6 +3,8 @@ import Hero from '../components/Hero'
 import ChooseUs from '../components/ChooseUs'
 import OurServices from '../components/OurServices'
 import Popular from '../components/Popular'
+import Testimonial from '../components/Testimonial'
+import Faq from '../components/Faq'
 
 const Homepage = () => {
   return (
@@ -11,8 +13,9 @@ const Homepage = () => {
         <Hero/>
         <ChooseUs/>
         <OurServices />
+        <Testimonial />
         <Popular/>
-
+        <Faq/>
       
     </div>
   )

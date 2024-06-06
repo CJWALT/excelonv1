@@ -21,8 +21,8 @@ function Footer() {
         <div className='flex gap-[.4rem] flex-col'>
             <h2 className='font-bold text-[1.2rem] font-[mada] text-[#121212]'>Permalinks</h2>
             <Link to='/' className='font-light text-[.8rem] font-[mada]'>Home</Link>
-            <Link to='/' className='font-light text-[.8rem] font-[mada]'>About us</Link>
-            <Link to='/' className='font-light text-[.8rem] font-[mada]'> Our Services</Link>
+            <Link to='/about-us' className='font-light text-[.8rem] font-[mada]'>About us</Link>
+            <Link to='/our-services' className='font-light text-[.8rem] font-[mada]'> Our Services</Link>
             <Link to='/' className='font-light text-[.8rem] font-[mada]'>Contact us</Link>
         </div>
         <div className='flex gap-[.4rem] flex-col'>

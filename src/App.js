@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import ChooseUs from './components/ChooseUs';
 
 import OurServices from './components/OurServices';
+import ContactUs from './pages/ContactUs';
 
 
 const Layout = () => {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "our-services",
         element: <OurServices />
+      },
+      {
+        path: "contact-us",
+        element: <ContactUs />
       }
     ]
   }

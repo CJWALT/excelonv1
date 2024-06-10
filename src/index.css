@@ -59,13 +59,34 @@
 }
 
 
-.embla {
-    overflow: hidden;
+
+  .accordion-bg-none{ 
+    background-color: transparent !important;
   }
-  .embla__container {
-    display: flex;
+
+  .slide__car{ 
+    animation: slideImg 2s ease;
+    transition: all 3s ease-in;
+    display: none;
   }
-  .embla__slide {
-    flex: 0 0 100%;
-    min-width: 0;
+
+  .hero__img:hover > .slide__car{ 
+    display: block;
+    transition: all 5s ease;
+  }
+
+  @keyframes slideImg {
+    
+        0%{
+            margin-right:-40px;
+            
+        }
+        50%{
+            margin-right:-100px;
+
+        }
+        100%{
+            margin-right:200px;
+
+        }
   }

@@ -2,14 +2,14 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 function Popular() {
   return (
-    <div className=' w-[90%] max-w-[1440px] py-[2rem] mx-auto'>
+    <div className=' w-[90%] max-w-[1440px] py-[4rem] mx-auto'>
         
-        <div className='flex flex-col mb-[1rem]'>
+        <div className='flex flex-col md:flex-row md:justify-between mb-[1rem]'>
             <h2 className='font-[limelight] text-[1.9rem] text-[#091751]'>Popular</h2>
-            <p className='text-[.9rem] text-[#383f5a] tracking-[.2rem] font-[mada]'>Popular Trending Products</p>
+            <p className='md:align-justify md:w-[18rem] text-[.9rem] text-[#383f5a] md:self-center tracking-[.2rem] font-[mada]'>Popular Trending Products <br/> Lorem ipsum dolor consectetur adipisicing elit.</p>
         </div>
 
-        <div className='overflow-x-auto relative gap-[2rem] flex flex-row w-full'>
+        <div className='md:justify-center overflow-x-auto relative md:gap-[4rem] gap-[2rem] flex flex-row w-full'>
             <span className='perspective-wrap w-[7rem] relative h-[15rem] bg-[url("./img/car-one.jpg")] rounded flex justify-center before:absolute before:content-[" "] before:absolute before:top-0 before:right-0 before:h-[15rem] before:w-[7rem] before:bg-black before:-z-0 before:opacity-30 items-end bg-contain bg-cover bg-no-repeat flex-none '>
                 <h2 className='font-bold font-mada text-[1rem] z-10 text-white'>Auto Deals</h2>
 

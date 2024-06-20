@@ -20,6 +20,14 @@
     width:2px;
   }
 
+  .chooseUsBg{ 
+    background-color:#e2f0ff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/lightbg.png);
+    background-position:center, center;
+  }
+
 .perspective-wrap{ 
     perspective: 734px;
 }
@@ -89,4 +97,26 @@
             margin-right:200px;
 
         }
+  }
+
+  .chooseUsImg{ 
+    animation: animateChooseUsImg  3s ease infinite;
+    
+  }
+
+
+  @keyframes animateChooseUsImg{ 
+    0%{ 
+        transform: rotatex(20deg);
+    }
+    50%{ 
+        transform: rotatex(40deg);
+    }
+    75%{ 
+        transform: rotatex(60deg);
+    }
+    100%{ 
+        transform: rotatex(80deg);
+    }
+    
   }

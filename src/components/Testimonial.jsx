@@ -20,8 +20,7 @@ function Testimonial() {
 
 
   return (
-    
-    <div className='mx-auto w-[90%] max-w-[1440px]'>
+        <div className='mx-auto w-[90%] max-w-[1280px] py-[6rem] '>
         <div>
             <h2 className='font-[limelight] text-[2rem] text-[#383F5A] '>Testimonials</h2>
                 <small className='font-[inter] text-regular text-[.8rem]'>What Our Clients Say</small>
@@ -29,43 +28,42 @@ function Testimonial() {
         </div>
 
 
-            <div className='relative'>
-                <div className='overflow-hidden w-[20rem] mx-auto mt-2rem flex items-center '>
-            <div
-            style={{ transform: `translateX(-${currentSlide * 100}%)` }}
-            className='flex transition-transform duration-300 py-[1rem] items-center relative mt-[2rem]'>
-            
-                <div className='mborder-4 border-[#383F5A] w-[20rem] bg-white py-[2rem] border-2 border-blue-400 flex items-center flex-shrink-0 flex-col justify-center'>
-                    <div className=' font-[mada] text-center py-[1rem] bg-white w-[20rem] max-w-[21rem]'>
-                        <p className='text-[.9rem]'>Buying property through Excelon Properties was seamless. The team was professional, knowledgeable, and supportive throughout the process. Highly recommend!</p>
-                            <small className='font-bold block mt-[1rem]'>IVan Rakit</small>
+            <div className='relative overflow-hidden md:w-[40%] mx-auto'>
+                <div className=' overflow-hidden w-[20rem] mx-auto mt-2rem flex items-center '>
+                    <div style={{ transform: `translateX(-${currentSlide * 21}rem)` }}
+                        className='flex transition-transform duration-300 gap-[1rem] py-[1rem] items-center relative mt-[2rem]'>
+                    
+                        <div className='border-4 border-[#383F5A] w-[20rem] bg-white py-[2rem] border-2 border-blue-400 flex items-center flex-shrink-0 flex-col justify-center'>
+                            <div className=' font-[mada] text-center py-[1rem] bg-white w-[20rem] max-w-[21rem]'>
+                                <p className='text-[.9rem]'>Buying property through Excelon Properties was seamless. The team was professional, knowledgeable, and supportive throughout the process. Highly recommend!</p>
+                                    <small className='font-bold block mt-[1rem]'>IVan Rakit</small>
+                            </div>
+                            <img src='../img/auto.png' alt='testimonial one' className='p-2 bg-white w-[4rem] rounded-full absolute bottom-0 h-auto'/>
+                        </div> 
+                        <div className='border-4 border-[#383F5A] w-[20rem] bg-white py-[2rem] border-2 border-blue-400 flex items-center flex-shrink-0 flex-col justify-center'>
+                            <div className=' font-[mada] text-center py-[1rem] bg-white w-[20rem] max-w-[21rem]'>
+                                <p className='text-[.9rem]'>"Booking a shortlet apartment was easy and stress-free. The apartment was clean, modern, and well-located. Excellent service!"</p>
+                                    <small className='font-bold block mt-[1rem]'>toyo Rakit</small>
+                            </div>
+                            <img src='../img/auto.png' alt='testimonial one' className='p-2 bg-white w-[4rem] rounded-full absolute bottom-0 h-auto'/>
+                        </div> 
+                        <div className='border-4 border-[#383F5A] w-[20rem] bg-white py-[2rem] border-2 border-blue-400 flex items-center flex-shrink-0 flex-col justify-center'>
+                            <div className=' font-[mada] text-center py-[1rem] bg-white w-[20rem] max-w-[21rem]'>
+                                <p className='text-[.9rem]'>"Booking a shortlet apartment was easy and stress-free. The apartment was clean, modern, and well-located. Excellent service!"</p>
+                                    <small className='font-bold block mt-[1rem]'>royo Rakit</small>
+                            </div>
+                            <img src='../img/auto.png' alt='testimonial one' className='p-2 bg-white w-[4rem] rounded-full absolute bottom-0 h-auto'/>
+                        </div>                 
                     </div>
-                    <img src='../img/auto.png' alt='testimonial one' className='p-2 bg-white w-[4rem] rounded-full absolute bottom-0 h-auto'/>
-                </div> 
-                <div className='border-4 border-[#383F5A] w-[20rem] bg-white py-[2rem] border-2 border-blue-400 flex items-center flex-shrink-0 flex-col justify-center'>
-                    <div className=' font-[mada] text-center py-[1rem] bg-white w-[20rem] max-w-[21rem]'>
-                        <p className='text-[.9rem]'>"Booking a shortlet apartment was easy and stress-free. The apartment was clean, modern, and well-located. Excellent service!"</p>
-                            <small className='font-bold block mt-[1rem]'>toyo Rakit</small>
+                    <div className='absolute w-[100%] mx-auto flex justify-between left-0 top-[10rem]'>
+                            <FaArrowAltCircleLeft  
+                            className='w-[2rem] h-[1rem] cursor-pointer'
+                            onClick={prevSlide}/>
+                            <FaArrowAltCircleRight
+                            className='w-[2rem] h-[1rem]
+                            cursor-pointer'
+                            onClick={nextSlide}/>
                     </div>
-                    <img src='../img/auto.png' alt='testimonial one' className='p-2 bg-white w-[4rem] rounded-full absolute bottom-0 h-auto'/>
-                </div> 
-                <div className='border-4 border-[#383F5A] w-[20rem] bg-white py-[2rem] border-2 border-blue-400 flex items-center flex-shrink-0 flex-col justify-center'>
-                    <div className=' font-[mada] text-center py-[1rem] bg-white w-[20rem] max-w-[21rem]'>
-                        <p className='text-[.9rem]'>"Booking a shortlet apartment was easy and stress-free. The apartment was clean, modern, and well-located. Excellent service!"</p>
-                            <small className='font-bold block mt-[1rem]'>royo Rakit</small>
-                    </div>
-                    <img src='../img/auto.png' alt='testimonial one' className='p-2 bg-white w-[4rem] rounded-full absolute bottom-0 h-auto'/>
-                </div> 
-        
-            
-            
-            </div>
-                <div className='absolute w-[25rem] flex justifty-between left-0  top-[8rem] flex justify-between'>
-                        <FaArrowAltCircleLeft  
-                        className='w-[2rem] h-[1rem] cursor-pointer'
-                        onClick={prevSlide}/>
-                        <FaArrowAltCircleRight className='w-[2rem] h-[1rem] cursor-pointer' onClick={nextSlide}/>
-                </div>
                     </div>
             </div>
 

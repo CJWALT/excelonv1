@@ -6,7 +6,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <div className='md:justify-between md:flex-row py-[4rem] w-[90%] flex flex-col gap-[1.3rem] max-w-[1440px] mx-auto'>
+    <div className='md:justify-between md:flex-row py-[4rem] w-[90%] flex flex-col gap-[1.3rem] max-w-[1280px] mx-auto'>
       
       <div className='flex flex-col md:w-[30%] gap-[1rem]'>
         <img src="../img/logo.png" alt="footer-logo"  className='w-[7rem] aspect-h-3'/>
@@ -26,7 +26,7 @@ function Footer() {
             <Link to='/' className='font-light text-[.8rem] font-[mada]'>Home</Link>
             <Link to='/about-us' className='font-light text-[.8rem] font-[mada]'>About us</Link>
             <Link to='/our-services' className='font-light text-[.8rem] font-[mada]'> Our Services</Link>
-            <Link to='/' className='font-light text-[.8rem] font-[mada]'>Contact us</Link>
+            <Link to='/contact-us' className='font-light text-[.8rem] font-[mada]'>Contact us</Link>
         </div>
         <div className='flex gap-[.4rem] flex-col'>
             <h2 className='font-bold text-[1.2rem] font-[mada] text-[#121212]'>Privacy</h2>

@@ -9,6 +9,7 @@ import ChooseUs from './components/ChooseUs';
 
 import OurServices from './components/OurServices';
 import ContactUs from './pages/ContactUs';
+import Popular from './components/Popular';
 
 
 const Layout = () => {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "contact-us",
         element: <ContactUs />
+      },
+      {
+        path: "popular",
+        element: <Popular />
       }
     ]
   }

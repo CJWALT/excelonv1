@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 
@@ -10,7 +10,10 @@ import ChooseUs from './components/ChooseUs';
 import OurServices from './components/OurServices';
 import ContactUs from './pages/ContactUs';
 import Popular from './components/Popular';
+import { WhatsAppProvider } from './WhatsAppContext';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Layout = () => {
   return (
@@ -52,7 +55,15 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={router} />;
+
+    useEffect(() => {
+      AOS.init();
+    }, []);
+  
+  return  <WhatsAppProvider>
+            <RouterProvider router={router} />;
+        </WhatsAppProvider>
+  
 }
 
 export default App;

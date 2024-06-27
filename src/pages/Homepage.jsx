@@ -6,15 +6,19 @@ import Popular from '../components/Popular'
 import Testimonial from '../components/Testimonial'
 import Faq from '../components/Faq'
 
+
 const Homepage = () => {
   return (
     <div>
         
         <Hero/>
         <ChooseUs/>
-        <OurServices />
-        <Testimonial />
-        <Popular/>
+        
+          <OurServices />
+          <Testimonial />
+          <Popular/>
+        
+        
         <Faq/>
       
     </div>

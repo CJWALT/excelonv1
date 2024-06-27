@@ -62,7 +62,7 @@ function ChooseUs() {
 
             <div className='lg:w-[40%] order-1 md:self-center flex flex-col md:w-[38%] gap-4'>
                 <div className='block self-end' data-aos="slide-left">
-                    <img src="../img/auto.png" alt="auto deal" className='chooseUsImg lg:w-[22rem] w-[12rem] md:w-[15rem] h-auto ' />
+                    <img src="../img/rr.png" alt="auto deal" className='chooseUsImg lg:w-[22rem] w-[17rem] md:w-[15rem] h-auto ' />
                 </div>
                 <div data-aos='fade-up' >
                     <h2 data-aos='fade-down' className='text-right text-[1rem] md:text-[1.3rem] lg:text-[1.8rem] font-[limelight]'>Excelon Difference</h2>

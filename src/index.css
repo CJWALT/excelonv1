@@ -85,38 +85,13 @@
 
   @keyframes slideImg {
     
-        0%{
-            margin-right:-40px;
-            
-        }
-        50%{
-            margin-right:-100px;
-
-        }
-        100%{
-            margin-right:200px;
-
-        }
+    from {
+      right: -100%;
+      opacity: 0;
+    }
+    to {
+      right: 2rem;
+      opacity: 1;
+    }
   }
 
-  .chooseUsImg{ 
-    animation: animateChooseUsImg  3s ease infinite;
-    
-  }
-
-
-  @keyframes animateChooseUsImg{ 
-    0%{ 
-        transform: rotatex(20deg);
-    }
-    50%{ 
-        transform: rotatex(40deg);
-    }
-    75%{ 
-        transform: rotatex(60deg);
-    }
-    100%{ 
-        transform: rotatex(80deg);
-    }
-    
-  }

@@ -12,7 +12,7 @@ const Hero = () => {
                     <h2 className='font-[mada] text-[1.6rem] md:text-[2rem] lg:text-[3rem] font-bold text-[#091751]'>
                         Discover, Dream, Drive!
                         </h2>
-                    <Link to='/popular' className='bg-[#091751] rounded-[5px] w-[84px] h-[26px] lg:h-[30px] text-[1rem] lg:w-[90px] hover:border-2 hover:bg-transparent hover:text-[#091751] hover:border-[#091751] flex items-center mt-[1rem] justify-center text-[13px] font-[inter] font-medium text-white '>Explore</Link>
+                    <Link to='/popular' className='bg-[#091751] rounded-[20px] w-[90px] h-[30px] lg:h-[30px] text-[1rem] lg:w-[90px] hover:border-2 hover:bg-transparent hover:text-[#091751] hover:border-[#091751] flex items-center mt-[1rem] justify-center text-[13px] font-[inter] font-medium text-white '>Explore</Link>
 
                 </div>
                 <div className='hero__img'>
@@ -21,8 +21,8 @@ const Hero = () => {
                         
                     </div>
 
-                    <div className='absolute bottom-[4rem] slide__car'>
-                        <img src="../img/auto.png" alt="display auto hero" />
+                    <div className='absolute bottom-[.6rem] right-0 slide__car'>
+                        <img src="../img/img-car.png" className='' alt="display auto hero" />
                     </div>
                 </div>
                

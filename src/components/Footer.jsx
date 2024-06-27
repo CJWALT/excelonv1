@@ -14,9 +14,9 @@ function Footer() {
         Excelon Properties - Your trusted partner in real estate and automotive solutions. Committed to excellence and customer satisfaction. Discover quality and reliability with us
         </p>
         <div data-aos='fade-up' className='flex gap-4'>
-            <span><BsInstagram /></span>
-            <span><FaWhatsapp /></span>
-            <span><RiTwitterXFill /></span>
+        <Link to ='https://www.instagram.com/excelon.properties1' target='_blank'>  <span><BsInstagram /></span> </Link> 
+             <Link to ="https://wa.me/+2348144356687" target="_blank"> <span><FaWhatsapp /></span> </Link> 
+             <Link to ='https://twitter.com/excelonproperty' target='_blank'><span><RiTwitterXFill /></span> </Link> 
             
         </div>
       </div>

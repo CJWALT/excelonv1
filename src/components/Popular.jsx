@@ -49,7 +49,7 @@ function Popular() {
                   <button onClick={()=> handleClick("Hello I'm making enquiry about your short stay apartments")} className='text-[.6rem] bg-[#e2f0ff] text-black px-2 py-1 leading-none rounded-[.5rem] hover:text-[#e2f0ff] hover:bg-black uppercase '>  learn more</ button> 
                 </span>
               </span>
-            <span data-aos='zoom-out' className='perspective-wrap w-[7rem] relative h-[15rem] bg-[url("./img/car-one.jpg")] rounded flex justify-center before:absolute before:content-[" "] before:absolute before:top-0 before:right-0 before:h-[15rem] before:w-[7rem] before:bg-black before:-z-0 before:opacity-30 items-end bg-contain bg-cover bg-no-repeat flex-none '>
+            <span data-aos='zoom-out' className='perspective-wrap w-[7rem] relative h-[15rem] bg-[url("https://images.pexels.com/photos/1838640/pexels-photo-1838640.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")] rounded flex justify-center before:absolute before:content-[" "] before:absolute before:top-0 before:right-0 before:h-[15rem] before:w-[7rem] before:bg-black before:-z-0 before:opacity-30 items-end bg-contain bg-cover bg-no-repeat flex-none '>
                 <h2  data-aos='fade-up' className='font-bold font-mada text-[.7rem] text-center z-10 text-white'>Real Estate and sales</h2>
 
                 <span className="popular-perspective px-[.8rem] flex flex-col text-[1.1rem] justify-center items-center gap-[2rem] text-white font-[mada] font-semibold absolute bg-[#383f5a] top-0 right-0 w-[100%] h-[100%] z-10">

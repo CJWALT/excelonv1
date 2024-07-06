@@ -30,8 +30,8 @@ function Footer() {
         </div>
         <div className='flex gap-[.4rem] flex-col'>
             <h2 data-aos='fade' className='font-bold text-[1.2rem] font-[mada] text-[#121212]'>Privacy</h2>
-            <Link data-aos='fade-up' to='/' className='font-light text-[.8rem] font-[mada]'>Terms and Condition</Link>
-            <Link data-aos='fade-up' to='/' className='font-light text-[.8rem] font-[mada]'>Help and Support</Link>
+            <Link data-aos='fade-up' to='/tnc' className='font-light text-[.8rem] font-[mada]'>Terms and Condition</Link>
+            <Link data-aos='fade-up' to='/helpnsupport' className='font-light text-[.8rem] font-[mada]'>Help and Support</Link>
         </div>
         <div className='flex gap-[.4rem] flex-col'>
             <h2 data-aos='fade' className='font-bold text-[1.2rem] font-[mada] text-[#121212]'>Address:</h2>

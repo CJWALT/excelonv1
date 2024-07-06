@@ -14,6 +14,8 @@ import { WhatsAppProvider } from './WhatsAppContext';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Tnc from './pages/Tnc';
+import HelpnSupport from './pages/HelpnSupport';
 
 const Layout = () => {
   return (
@@ -49,6 +51,14 @@ const router = createBrowserRouter([
       {
         path: "popular",
         element: <Popular />
+      },
+      {
+        path: "tnc",
+        element: <Tnc />
+      },
+      {
+        path: "helpnsupport",
+        element: <HelpnSupport />
       }
     ]
   }

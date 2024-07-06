@@ -5,10 +5,10 @@ const Hero = () => {
   return (
         <>
         <div className='relative'>
-            <main className='w-[90%] border-2 max-w-[1280px] mx-auto h-[87vh] md:h-[70vh] lg:h-[80vh] md:static md:flex md:flex-row md:flex-wrap sm:h-[25rem] sm:flex'>
+            <main className='w-[90%] max-w-[1280px] mx-auto h-[87vh] md:h-[70vh] lg:h-[80vh] md:static md:flex md:flex-row md:flex-wrap sm:h-[25rem] sm:flex'>
                 <div className='py-[3rem] self-center md:w-[50%] lg:w-[55%]'>
                 <h2 className='font-[mada] text-[1.6rem] md:text-[2rem] lg:text-[3rem] font-bold text-[#091751]'>
-                        <span className='text-[3rem]'>D</span>iscover, <span className='text-[3rem]'>D</span>ream, <span className='text-[3rem]'>D</span>rive!
+                        <span className='text-[3rem] md:text-[5rem]'>D</span>iscover, <span className='text-[3rem] md:text-[5rem]'>D</span>ream, <span className='text-[3rem] md:text-[5rem]'>D</span>rive!
                         </h2>
                     <p className='text-[1.1rem] md:text-[1.2rem] lg:text-[1.8rem] font-semibold text-[#091751] font-[mada]'>Explore your lifestyle with us:<br/>
                         REAL ESTATE, Short Stays, AUTO Deals.

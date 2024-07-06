@@ -1,16 +1,8 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import { FaCheckCircle, FaClock, FaMedal, FaSmile } from 'react-icons/fa';
-import AOS from "aos";
-import 'aos/dist/aos.css';
 
 
 function ChooseUs() {
-
-
-        useEffect(() => {
-          AOS.init();
-          AOS.refresh();
-        }, []);
 
   const data =[
 
@@ -47,7 +39,7 @@ function ChooseUs() {
             Why Choose Us?
         </h2>
         <div className='flex flex-col w-[100%] md:flex-row gap-[.8rem] '>
-            <div className='flex flex-col md:justify-center lg:w-[70%] md:flex-row md:w-[62%] items-center md:flex-wrap gap-[1.6rem] md:order-1 order-2'>
+            <div className='flex flex-col sm:flex-row sm:flex-wrap sm:justify-center md:justify-center lg:w-[70%] md:flex-row md:w-[62%] items-center md:flex-wrap gap-[1.6rem] sm:order-1 order-2'>
                {data.map((item, index) =>(
                   <div data-aos='fade-up' data-aos-delay='400ms' key={index} className="border-2 border-[#383F5A] lg:w-[17rem] md:w-[12rem] w-[14rem] max-w-[19rem] p-4 flex flex-col transition-shadow duration-300 rounded  gap-[.4rem] chooseUs">
                     <span data-aos='zoom-in-down'>
@@ -60,7 +52,7 @@ function ChooseUs() {
                 
             </div>
 
-            <div className='lg:w-[40%] order-1 md:self-center flex flex-col md:w-[38%] gap-4'>
+            <div className='lg:w-[40%] md:order-2 md:self-center flex flex-col md:w-[38%] gap-4'>
                 <div className='block self-end' data-aos="slide-left">
                     <img src="../img/rr.png" alt="auto deal" className='chooseUsImg lg:w-[22rem] w-[17rem] md:w-[15rem] h-auto ' />
                 </div>

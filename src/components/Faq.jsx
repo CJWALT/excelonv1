@@ -1,4 +1,4 @@
- import React, { useState } from 'react'
+ import React from 'react'
 
 
 import Accordion from '@mui/material/Accordion';
@@ -15,14 +15,14 @@ function Faq() {
     
   return (
     <div className='bg-[#4A5CA2] py-[5rem]'>
-        <div className='w-[90%] md:justify-between md:flex-row max-w-[1440px] w-[90%] mx-auto text-white flex flex-col gap-8'>
-            <div className='md:w-[40%] lg:w-[30%] md:max-w-[45%] md:self-center'>
+        <div className='w-[90%] md:justify-between sm:flex-row max-w-[1280px] w-[90%] mx-auto text-white flex flex-col gap-8 sm:gap-[.5rem]'>
+            <div className='md:w-[40%] sm:w-[45%] lg:w-[38%] md:max-w-[45%] sm:self-center'>
                 <h2 data-aos='slide-up' className='font-[limelight] text-[2.1rem]'>FAQ</h2>
                 <h4 data-aos='zoom-in'>
                     Frequently Asked Questions</h4>
                 <small data-aos='fade' className='blockborder-2 border-red-400'>Find answers to common questions about our services, booking process, and how we can assist you effectively.</small>
             </div>
-        <div className='flex flex-col gap-2' data-aos='fade-in'>
+        <div className='flex flex-col gap-2 sm:w-[55%]' data-aos='fade-in'>
             <Accordion defaultExpanded 
              className='accordion-bg-none border-b-2 pb-2 border-[#091751] block'
                >

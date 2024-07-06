@@ -6,7 +6,7 @@ function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   const showMenu = () => {
-    setToggleMenu(!toggleMenu);
+    setToggleMenu((prev)=> !prev);
   };
 
   const handleLinkClick = () => {

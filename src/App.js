@@ -22,7 +22,7 @@ const Layout = () => {
       <Outlet />
       <Footer/>
     </>
-  );
+  )
 };
 
 const router = createBrowserRouter([

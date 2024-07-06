@@ -40,15 +40,14 @@ function Testimonial() {
 
 
   return (
-        <div className='mx-auto w-[90%] max-w-[1280px] py-[6rem] '>
-        <div>
-            <h2 data-aos='fade' className='font-[limelight] text-[2rem] text-[#383F5A] '>Testimonials</h2>
-                <small data-aos='fade' className='font-[inter] text-regular text-[.8rem]'>What Our Clients Say</small>
+        <div className='mx-auto w-[90%] max-w-[1280px] py-[6rem] md:flex md:flex-row md:justify-between '>
+            <div className='md:order-2 self-center'>
+                <h2 data-aos='fade' className='font-[limelight] text-[2rem] text-[#383F5A] '>Testimonials</h2>
+                    <small data-aos='fade' className='font-[inter] text-regular text-[.8rem]'>What Our Clients Say</small>
+            </div>
 
-        </div>
 
-
-            <div className='relative overflow-hidden md:w-[40%] mx-auto'>
+            <div className='relative overflow-hidden lg:border-2 lg:border-green-400 md:border-2 md:border-blue-400 sm:w-[25rem] sm:max-w-[26rem] md:w-[58%] md:mx-0 mx-auto'>
                 <div className=' overflow-hidden w-[20rem] mx-auto mt-2rem flex items-center '>
                     <div style={{ transform: `translateX(-${currentSlide * 21}rem)` }}
                         className='flex transition-transform duration-300 gap-[1rem] py-[1rem] items-center relative mt-[2rem]'>
@@ -66,22 +65,15 @@ function Testimonial() {
                     </div>
                     <div data-aos='zoom-right' className='absolute w-[100%] mx-auto flex justify-between left-0 top-[10rem]'>
                             <FaArrowAltCircleLeft  
-                            className='w-[2rem] h-[1rem] cursor-pointer'
+                            className='w-[2rem] hover:text-[#202ead] transition-ease h-[1rem] cursor-pointer'
                             onClick={prevSlide}/>
                             <FaArrowAltCircleRight
-                            className='w-[2rem] h-[1rem]
+                            className='w-[2rem] h-[1rem] hover:text-[#202ead] transition-ease
                             cursor-pointer'
                             onClick={nextSlide}/>
                     </div>
                     </div>
-            </div>
-
-            
-
-        
-        
-        
-        
+            </div>      
       </div>
     
   )

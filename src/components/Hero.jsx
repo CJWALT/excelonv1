@@ -11,7 +11,7 @@ const Hero = () => {
                         <span className='text-[3rem] md:text-[5rem]'>D</span>iscover, <span className='text-[3rem] md:text-[5rem]'>D</span>ream, <span className='text-[3rem] md:text-[5rem]'>D</span>rive!
                         </h2>
                     <p className='text-[1.1rem] md:text-[1.2rem] lg:text-[1.8rem] font-semibold text-[#091751] font-[mada]'>Explore your lifestyle with us:<br/>
-                        REAL ESTATE, Short Stays, AUTO Deals.
+                        Real estate, short stays, auto deals.
                     </p>
                     
                     <Link to='/popular' className='bg-[#091751] rounded-[20px] w-[90px] h-[30px] lg:h-[30px] text-[1rem] lg:w-[90px] hover:border-2 hover:bg-transparent hover:text-[#091751] hover:border-[#091751] flex items-center mt-[1rem] justify-center text-[13px] font-[inter] font-medium text-white '>Explore</Link>

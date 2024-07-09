@@ -3,7 +3,7 @@ import React from 'react'
 export default function Tnc() {
   return (
     <div>
-        <div className='w-[90%] max-w-[1280px] p-4 mx-auto border-2 border-[#091751] rounded-md'>
+        <div className='w-[90%] max-w-[1280px] mt-[2rem] p-4 mx-auto border-2 border-[#091751] rounded-md'>
             <h2 className='text-[2rem] uppercase text-center mb-[1rem]'>Terms and Condition</h2>
             <ol className='flex gap-4 flex-col'>
                 <li>

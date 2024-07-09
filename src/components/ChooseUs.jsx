@@ -34,7 +34,7 @@ function ChooseUs() {
 
   return (    
     <div className='relative chooseUsBg'>
-      <div className='z-10 relative w-[90%] max-w-[1280px] mx-auto py-[6rem]'>
+      <div className='relative w-[90%] max-w-[1280px] mx-auto py-[6rem]'>
         <h2 data-aos="fade-out" className='text-center text-[1.9rem] md:text-[2.2rem] font-[limelight] mb-[2.3rem]'>
             Why Choose Us?
         </h2>

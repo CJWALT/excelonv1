@@ -13,7 +13,7 @@ const Hero = () => {
                     <p className='text-[.8rem] leading-[1rem] md:text-[1.2rem] md:leading-[1.2rem] lg:leading-[1.8rem] lg:text-[1.4rem] font-regular text-[#091751] font-[mada]'>Explore your lifestyle with us: Real estate, short stays, auto deals, luxury properties, vacation rentals, and exclusive vehicle offers.
                     </p>
                     
-                    <Link to='/popular' className='bg-[#091751] rounded-[20px] w-[90px] md:w-[100px] lg:w-[120px] md:h-[37px] h-[30px] lg:h-[40px] md:text-[1rem] lg:text-[1.3rem] lg:w-[90px] hover:border-2 hover:bg-transparent hover:text-[#091751] hover:border-[#091751] flex items-center mt-[1rem] justify-center text-[13px] font-[inter] font-medium text-white '>Explore</Link>
+                    <Link to='/popular' className='bg-[#091751] rounded-[20px] w-[90px] md:w-[100px] lg:w-[130px] md:h-[37px] h-[30px] lg:h-[40px] md:text-[1rem] lg:text-[1.3rem] lg:w-[90px] hover:border-2 hover:bg-transparent hover:text-[#091751] hover:border-[#091751] flex items-center mt-[1rem] justify-center text-[13px] font-[inter] font-medium text-white '>Explore</Link>
 
                 </div>
                 <div className='hero__img sm:w-[50%] sm:absolute sm:right-0 sm:bottom-0 md:h-[35rem] sm:h-[25rem]'>

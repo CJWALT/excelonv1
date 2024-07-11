@@ -35,7 +35,7 @@ function ChooseUs() {
   return (    
     <div className='relative chooseUsBg'>
       <div className='relative w-[90%] max-w-[1280px] mx-auto py-[6rem]'>
-        <h2 data-aos="fade-out" className='text-center text-[1.9rem] md:text-[2.2rem] font-[limelight] mb-[2.3rem]'>
+        <h2 data-aos="fade-out" className='text-[#091751] text-center text-[1.9rem] md:text-[2.2rem] font-[limelight] mb-[2.3rem]'>
             Why Choose Us?
         </h2>
         <div className='flex flex-col w-[100%] md:flex-row gap-[.8rem] '>
@@ -58,8 +58,8 @@ function ChooseUs() {
                 </div>
                 <div data-aos='fade-up' >
                     <h2 data-aos='fade-down' className='text-right text-[1rem] md:text-[1.3rem] lg:text-[1.8rem] font-[limelight]'>Excelon Difference</h2>
-                    <small className='text-[.7rem] md:text-[.8rem] lg:text-[1rem] font-[inter] text-regular text-right block'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</small>
-                    <h6 className='text-right text-[.9rem] md:text-[1rem] text-[#4C67CF] font-[inter]'>20+ Real Estate Sold</h6>
+                    <small className='text-[.7rem] md:text-[.8rem] lg:text-[1rem] font-[inter] text-regular text-right block'>At Excelon Global Resources, we pride ourselves on delivering unparalleled service and expertise in both real estate and auto deals.</small>
+                    <h6 className='text-right text-[.9rem] md:text-[1rem] text-[#4C67CF] font-[inter]'>80+ Real Estate Sold</h6>
                 </div>
 
             </div>

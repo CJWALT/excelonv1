@@ -16,7 +16,7 @@ const WhatsAppContext = createContext();
         sendWhatsappMessage(telNum, message)
       }
 
-       console.log(process.env.REACT_APP_CLIENT_NUMBER)
+    
 
    const sendEmail = (email, name, message)=>{ 
             const recipient = process.env.REACT_APP_CLIENT_EMAIL;

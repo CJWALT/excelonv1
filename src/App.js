@@ -67,7 +67,9 @@ const router = createBrowserRouter([
 function App() {
 
     useEffect(() => {
-      AOS.init();
+      AOS.init(
+        {once:true,}
+      );
     }, []);
   
   return  <WhatsAppProvider>

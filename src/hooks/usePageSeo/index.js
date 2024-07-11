@@ -35,7 +35,7 @@ const usePageSEO = ({
                     element.setAttribute(attr, key)
                     document.head.appendChild(element)
                 }
-                element.setAttribute('cotent', content)
+                element.setAttribute('content', content)
             }
 
         }

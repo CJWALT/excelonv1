@@ -16,7 +16,7 @@ const Hero = () => {
                     <Link to='/popular' className='bg-[#091751] rounded-[20px] w-[90px] md:w-[100px] lg:w-[120px] md:h-[37px] h-[30px] lg:h-[40px] md:text-[1rem] lg:text-[1.3rem] lg:w-[90px] hover:border-2 hover:bg-transparent hover:text-[#091751] hover:border-[#091751] flex items-center mt-[1rem] justify-center text-[13px] font-[inter] font-medium text-white '>Explore</Link>
 
                 </div>
-                <div className='hero__img sm:w-[50%] sm:absolute sm:right-0 sm:bottom-0 md:h-[35rem] sm:h-[30rem]'>
+                <div className='hero__img sm:w-[50%] sm:absolute sm:right-0 sm:bottom-0 md:h-[35rem] sm:h-[25rem]'>
                     <div className=' absolute bottom-0 right-0 md:flex md:justify-end md:h-[30rem] lg:h-[34rem]'>
                         <img src='../img/hero-img.png' alt='hero' />
                         
